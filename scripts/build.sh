@@ -4,7 +4,7 @@ usage(){
     echo -e "Press 1 to merge the JSONL files into a separate file\n"
     echo -e "Press 2 to merge the JSONL files into a CSV\n"
 }
-
+docker-compose up --build
 operation=""
 input_path=""
 output_path=""
