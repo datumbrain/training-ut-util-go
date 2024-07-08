@@ -9,6 +9,7 @@ operation=""
 input_path=""
 output_path=""
 format="jsonl"
+build=false
 
 # Parse command-line arguments
 while [[ $# -gt 0 ]]; do
@@ -29,13 +30,17 @@ while [[ $# -gt 0 ]]; do
             format="$2"
             shift 2
             ;;
+        -b)
+            build=true
+            shift
+            ;;
         *)
             echo "Invalid option: $1"
             ;;
     esac
 done
 
-if [ "$1" == "-b" ]; then
+if [ "$build" == true ]; then
     cd ..
     mkdir -p bin
     go build -o bin/util ./util.go
