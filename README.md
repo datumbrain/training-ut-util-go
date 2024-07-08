@@ -9,7 +9,7 @@ This repository contains a Go CLI that performs file merging operations. The CLI
 ## How to run the Tool
    - cd scripts
    - chmod +x build.sh
-   - ./build.sh
+   - ./build.sh --operation merge --input-path [your input-path] --output-path [your output-path]
       Then follow the terminal guidelines 
 
 ## How to run the tool in a dockerized enviroment
