@@ -6,6 +6,18 @@ This repository contains a Go CLI that performs file merging operations. The CLI
 
 **Objective:** Create a Go CLI tool named `util` that performs file merging operations. The tool should merge all JSONL files in a specified directory into a single JSONL file and store it in an output directory. Additionally, if the `--format csv` flag is used, the output should be a CSV file.
 
+## How to run the Tool
+   - cd scripts
+   - chmod +x build.sh
+   - ./build.sh --operation merge --input-path [your input-path] --output-path [your output-path]
+      Then follow the terminal guidelines 
+
+## How to run the tool in a dockerized enviroment
+   - cd scripts
+   - chmod +x docker_entrypoint.sh
+   - cd ..
+   - docker-compose up --build
+
 ## Requirements
 
 1. **CLI Flags:**
@@ -59,7 +71,6 @@ This repository contains a Go CLI that performs file merging operations. The CLI
    ```bash
    ./bin/util --operation merge --input-path ./data/jsonl_files/ --output-path ./output_data --format csv
    ```
-
 ## Submission
 
 Submit the following:

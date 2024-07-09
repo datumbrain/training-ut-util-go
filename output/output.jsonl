@@ -1,0 +1,10 @@
+{"id": 1, "name": "Alice Johnson", "email": "alice.johnson@example.com", "signup_date": "2023-01-15"}
+{"id": 2, "name": "Bob Smith", "email": "bob.smith@example.com", "signup_date": "2023-03-22"}
+{"id": 3, "name": "Charlie Brown", "email": "charlie.brown@example.com", "signup_date": "2023-05-10"}
+{"id": 4, "name": "Diana Prince", "email": "diana.prince@example.com", "signup_date": "2023-06-05"}
+{"id": 5, "name": "Eve Adams", "email": "eve.adams@example.com", "signup_date": "2023-07-01"}
+{"title": "To Kill a Mockingbird", "author": "Harper Lee", "year": 1960, "genre": "Fiction"}
+{"title": "1984", "author": "George Orwell", "year": 1949, "genre": "Dystopian"}
+{"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "year": 1925, "genre": "Fiction"}
+{"title": "Pride and Prejudice", "author": "Jane Austen", "year": 1813, "genre": "Romance"}
+{"title": "The Catcher in the Rye", "author": "J.D. Salinger", "year": 1951, "genre": "Fiction"}

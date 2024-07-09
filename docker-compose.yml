@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  go-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go_app_container
+    volumes:
+      - .:/training-ut-util-go
+      - ./input:/training-ut-util-go/input
+      - ./output:/training-ut-util-go/output
+    working_dir: /training-ut-util-go
+    environment:
+      INPUT_PATH: /training-ut-util-go/input
+      OUTPUT_PATH: /training-ut-util-go/output
